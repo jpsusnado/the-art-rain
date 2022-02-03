@@ -1,0 +1,62 @@
+.tope{
+    display: flex;
+    flex-direction: column;
+    background-color: #ad46cc;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+ font-family: jesus;
+ src: url("./zuz.ttf");
+}
+
+.titulo{
+    text-align: center;
+    font-family: jesus;
+    font-size: 200px;
+    color: rgb(230, 222, 236);
+    margin: 0;
+    padding: 0;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: jesus;
+    color: rgb(230, 222, 236);
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+body{
+    margin: 0;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-around;
+    background-color: #272727;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.social{
+    padding: 1rem 1rem;
+    color: #0e0d0d;
+    text-decoration: none;
+    background-color: lawngreen;
+    border-radius: 10px;
+
+}
+
+.informacion :hover{
+    color: #ad46cc;
+    background-color: lightseagreen;
+}
+
+.informacion :active{
+    color: #eee67a;
+}
+
+.informacion :visited{
+    color: #000000;
+    padding: 0;
+}
