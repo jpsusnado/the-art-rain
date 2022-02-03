@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 .tope{
     display: flex;
     flex-direction: column;
@@ -39,24 +43,24 @@ body{
 }
 
 .social{
-    padding: 1rem 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     color: #0e0d0d;
     text-decoration: none;
-    background-color: lawngreen;
+    background-color: #3d3d3d;
     border-radius: 10px;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem;
 
 }
 
-.informacion :hover{
+.social:hover{
     color: #ad46cc;
-    background-color: lightseagreen;
+    background-color: #0a0a0a;
 }
 
-.informacion :active{
+.social:active{
     color: #eee67a;
-}
-
-.informacion :visited{
-    color: #000000;
-    padding: 0;
 }
