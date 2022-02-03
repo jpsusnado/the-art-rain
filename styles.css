@@ -48,11 +48,12 @@ body{
     align-items: center;
     color: #0e0d0d;
     text-decoration: none;
-    background-color: #747474;
+    background-color: #6f6c72;
     border-radius: 10px;
     width: 4rem;
     height: 4rem;
     margin: 0 1rem;
+    -webkit-tap-highlight-color: transparent;
 
 }
 
