@@ -33,12 +33,12 @@
 
 .subtitulo{
     text-align: center;
-    font-family: jesus;
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: rgb(230, 222, 236);
     margin: 0;
     padding-bottom: 1.5rem;
     letter-spacing: 0.2rem;
-    font-size: 100px;
+    font-size: 25px;
 }
 body{
     margin: 0;
