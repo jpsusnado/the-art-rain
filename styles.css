@@ -5,10 +5,17 @@
 .tope{
     display: flex;
     flex-direction: column;
-    background-color: #ad46cc;
+    background-color: #101010;
     margin: 0;
     padding: 0;
 }
+.gradiente {
+    background-image: linear-gradient( 90deg,#ad46cc, #1b727e);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: fit-content;
+  }
 @font-face{
  font-family: jesus;
  src: url("./zuz.ttf");
@@ -21,6 +28,7 @@
     color: rgb(230, 222, 236);
     margin: 0;
     padding: 0;
+    letter-spacing: 0.5rem;
 }
 
 .subtitulo{
@@ -29,16 +37,18 @@
     color: rgb(230, 222, 236);
     margin: 0;
     padding-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
 }
 body{
     margin: 0;
+    background-color: #6f6c72;
 }
 
 .pie{
     display: flex;
     justify-content: space-around;
     background-color: #272727;
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 2rem;
 }
 
@@ -49,19 +59,19 @@ body{
     color: #0e0d0d;
     text-decoration: none;
     background-color: #6f6c72;
-    border-radius: 10px;
-    width: 4rem;
-    height: 4rem;
+    border-radius: 15px;
+    width: 6rem;
+    height: 6rem;
     margin: 0 1rem;
     -webkit-tap-highlight-color: transparent;
 
 }
 
 .social:hover{
+    background-color: #0e0d0d;
     color: #ad46cc;
-    background-color: #0a0a0a;
 }
 
 .social:active{
-    color: #eee67a;
+    color: #1b727e;
 }
