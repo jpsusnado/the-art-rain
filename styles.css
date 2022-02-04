@@ -46,12 +46,14 @@ body{
 }
 
 .dibujo{
+    text-align: center;
     width: 400px;
     margin: 40px;
     border-radius: 30px;
 }
 
 .presentacion{
+    text-align: center;
     font-family: sans-serif,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: #0e0d0d;
@@ -60,7 +62,7 @@ body{
 
 .contenido{
     display: inline-flex;
-    justify-content: baseline;
+    flex-direction: column;
 }
 
 .parrafos{
