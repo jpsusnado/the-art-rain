@@ -48,8 +48,9 @@ body{
 .dibujo{
     text-align: center;
     width: 400px;
-    margin: 40px;
     border-radius: 30px;
+    float: left;
+    margin-right: 30px;
 }
 
 .presentacion{
@@ -61,19 +62,17 @@ body{
 }
 
 .contenido{
-    display: inline-flex;
-    flex-direction: column;
+    margin: 40px;
 }
 
-.parrafos{
-    display: inline-flex;
-    flex-direction: column;
-    margin: 40px;
+.clear{
+    clear: both;
 }
 
 .pie{
     display: flex;
     justify-content: space-around;
+    align-content: flex-end;
     background-color: #272727;
     font-size: 5rem;
     padding: 2rem;
