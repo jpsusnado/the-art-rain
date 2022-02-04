@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -43,6 +47,7 @@
 body{
     margin: 0;
     background-color: #6f6c72;
+    min-height: 100%;
 }
 
 .dibujo{
@@ -76,6 +81,7 @@ body{
     background-color: #272727;
     font-size: 5rem;
     padding: 2rem;
+    margin-top: auto;
 }
 
 .social{
