@@ -1,0 +1,22 @@
+{
+  "name": "the-art-rain",
+  "version": "1.0.0",
+  "description": "En esta página estaré subiendo contenido sobre lo que he estado aprendiendo y sobre otras actividades que suelo hacer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "servor --browse --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpsusnado/the-art-rain.git"
+  },
+  "author": "Jesus Peinado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpsusnado/the-art-rain/issues"
+  },
+  "homepage": "https://github.com/jpsusnado/the-art-rain#readme",
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+}
